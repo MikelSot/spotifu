@@ -20,7 +20,27 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@components/*": ["./src/common/components/*"],
+      "@atoms": ["./src/common/components/atoms/index"],
+      "@molecules": ["./src/common/components/molecules/index"],
+      "@organisms": ["./src/common/components/organisms/index"],
+      "@layouts": ["./src/common/components/layouts/index"],
+      "@icons": ["./src/common/components/icons/index"],
+      "@modules/*": ["./src/modules/*"],
+      "@hooks": ["./src/common/hooks/index"],
+      "@providers": ["./src/common/providers/index"],
+      "@contexts": ["./src/common/providers/contexts"],
+      "@wrappers": ["./src/common/wrappers/index"],
+      "@constants/*": ["./src/common/constants/*"],
+      "@data/*": ["./src/common/data/*"],
+      "@helpers/*": ["./src/common/helpers/*"],
+      "@libs/*": ["./src/common/libs/*"],
+      "@interfaces/*": ["./src/common/interfaces/*"],
+      "@services/*": ["./src/common/services/*"],
+      "@api/*": ["./src/common/api/*"],
+      "@slices/*": ["./src/common/store/slices/*"],
+      "@campaigns/*": ["./src/common/campaigns/*"],
+      "@styles/*": ["./src/styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
