@@ -23,6 +23,7 @@
 static/*.xml
 hq
 script.sh
+.idea/
 
 # debug
 npm-debug.log*
